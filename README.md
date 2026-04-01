@@ -9,6 +9,13 @@ This project is a technical prototype designed to ingest, store, and visualize e
 * **Structured Storage:** Designed a PostgreSQL schema to manage sensor metadata (Latitude/Longitude) and time-series noise logs with full relational integrity.
 * **Visualization Dashboard:** A Streamlit-based web interface for exploring results, featuring live trend graphs and geospatial mapping.
 
+### Visualization & Reporting Layer
+| Geospatial Mapping (Helsinki Hotspots) | Noise Level Trends (Time-Series) |
+| :---: | :---: |
+| ![Map View](Screenshot 2026-04-01 at 23.19.38.png) | ![Trends View](newplot.png) |
+
+This dashboard allows for the exploration of results from our "data ingestion pipeline" without requiring direct database access. It highlights noise fluctuations across our three primary sensor locations: Kamppi, Otaniemi, and Kallio.
+
 ## Technical Stack
 * **Language:** Python (Pandas, Plotly, Psycopg2)
 * **Database:** PostgreSQL (Schema Design & Relational Modeling)
