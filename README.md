@@ -12,7 +12,7 @@ This project is a technical prototype designed to ingest, store, and visualize e
 ### Visualization & Reporting Layer
 | Geospatial Mapping (Helsinki Hotspots) | Noise Level Trends (Time-Series) |
 | :---: | :---: |
-| ![Map View](Screenshot 2026-04-01 at 23.19.38.png) | ![Trends View](newplot.png) |
+| ![Map View](map_view.png) | ![Trends View](newplot.png) |
 
 This dashboard allows for the exploration of results from our "data ingestion pipeline" without requiring direct database access. It highlights noise fluctuations across our three primary sensor locations: Kamppi, Otaniemi, and Kallio.
 
