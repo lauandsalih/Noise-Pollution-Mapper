@@ -10,9 +10,10 @@ This project is a technical prototype designed to ingest, store, and visualize e
 * **Visualization Dashboard:** A Streamlit-based web interface for exploring results, featuring live trend graphs and geospatial mapping.
 
 ### Visualization & Reporting Layer
-| Geospatial Mapping (Helsinki Hotspots) | Noise Level Trends (Time-Series) |
-| :---: | :---: |
-| ![Map View](map_view.png) | ![Trends View](newplot.png) |
+<p align="center">
+  <img src="map_view.png" width="45%" alt="Geospatial Mapping">
+  <img src="trends_view.png" width="45%" alt="Noise Level Trends">
+</p>
 
 This dashboard allows for the exploration of results from our "data ingestion pipeline" without requiring direct database access. It highlights noise fluctuations across our three primary sensor locations: Kamppi, Otaniemi, and Kallio.
 
