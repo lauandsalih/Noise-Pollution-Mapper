@@ -3,7 +3,7 @@ import pandas as pd
 import psycopg2
 import plotly.express as px
 
-st.title("🔊 Helsinki Noise Pollution Monitor")
+st.title(" Helsinki Noise Pollution Monitor")
 
 # Fetch data from the structured database
 conn = psycopg2.connect("dbname=noise_db user=Omistaja host=localhost")
