@@ -1,7 +1,7 @@
 # Acoustic Noise Pollution Mapper
 **A Full-Stack Data Pipeline for Geospatial Sound Analysis**
 
-## 📖 Overview
+##  Overview
 This project is a technical prototype designed to ingest, store, and visualize environmental noise measurements. It demonstrates an end-to-end data engineering workflow: connecting a Python-based data producer to a structured PostgreSQL database and providing a real-time reporting layer for technical insights.
 
 ##  Key Features
